@@ -53,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
 
 
             chipGroup.addView(chip);
+
+
+
+
+
             chipGroup.setSingleSelection(true);
             chip.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
